@@ -151,7 +151,7 @@ A lower RMSSD indicates reduced parasympathetic (vagal) activity, which correlat
 | V2 | String | System Status ("Relaxed" / "ANXIETY!") |
 | V3 | Button | Calibration Trigger |
 
-![Dashboards](assets/blynk_dasboard.png)
+![Dashboards](assets/blynk_dashboard.png)
 
 ---
 
@@ -167,7 +167,7 @@ A lower RMSSD indicates reduced parasympathetic (vagal) activity, which correlat
    - Blynk app receives **"Stress Detected"** alert
 6. If RMSSD is **above the threshold** → system shows **"Relaxed"**
 
-![Software Flowchart](assets/software_flowchart.png)
+![Software Flowchart](assets/flowchart.png)
 
 ---
 
@@ -193,15 +193,16 @@ A lower RMSSD indicates reduced parasympathetic (vagal) activity, which correlat
 - **Calibration Impact:** Significantly reduced false positives for users with naturally low HRV
 - **Display:** Stable anti-flicker OLED with no visual glitches
 
-![Blynk Dashboard](assets/blynk_dashboard.jpg)
+![Boot](assets/system_status_screen.jpg)
+
+![credits](assets/credits_image.png)
 
 ---
 
 ## Team
 
-
-- **Sumit Yaduwanshi**
 - **Vishwas Paliwal**
+- **Sumit Yaduwanshi**
 - **Nikhil Misal**
 
 **Supervisor:** Prof. Meha Shrivastava (Assistant Professor)  
