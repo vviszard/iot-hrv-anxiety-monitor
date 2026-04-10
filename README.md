@@ -193,7 +193,7 @@ A lower RMSSD indicates reduced parasympathetic (vagal) activity, which correlat
 - **Calibration Impact:** Significantly reduced false positives for users with naturally low HRV
 - **Display:** Stable anti-flicker OLED with no visual glitches
 
-![Boot](assets/system_status_screen.jpg)
+![Boot](assets/status_image.png)
 
 ![credits](assets/credits_image.png)
 
