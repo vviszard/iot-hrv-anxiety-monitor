@@ -1,6 +1,6 @@
-#IoT-Based Heart Rate Variability (HRV) Monitor for Anxiety Detection
+# IoT-Based Heart Rate Variability (HRV) Monitor for Anxiety Detection
 
-> A real-time, non-invasive wearable system that detects anxiety by monitoring Heart Rate Variability (HRV) using IoT and biomedical engineering principles.
+A real-time, non-invasive wearable system that detects anxiety by monitoring Heart Rate Variability (HRV) using IoT and biomedical engineering principles.
 
 ---
 
@@ -13,10 +13,8 @@
 - [Software & Firmware](#software--firmware)
 - [How It Works](#how-it-works)
 - [Results](#results)
-- [Project Cost](#project-cost)
 - [Future Scope](#future-scope)
 - [Team](#team)
-- [License](#license)
 
 ---
 
@@ -65,6 +63,8 @@ This project was developed as a Minor Project-I for the Bachelor of Technology i
 
 **Workflow:** MAX30102 → ESP32 (HRV Calculation) → Blynk Cloud → User Alerts
 
+![Workflow](assets/hrv_workflow.png)
+
 ---
 
 ## Hardware Components
@@ -77,8 +77,6 @@ This project was developed as a Minor Project-I for the Bachelor of Technology i
 | **Piezoelectric Buzzer** | Active, ~2.5kHz, <30mA | Auditory anxiety alert |
 | **TP4056 Module** | Li-ion charger module | Battery charging |
 | **500mAh Li-Po Battery** | 3.7V | Portable power supply |
-
-**Total Estimated Cost: ₹935**
 
 ---
 
@@ -153,6 +151,8 @@ A lower RMSSD indicates reduced parasympathetic (vagal) activity, which correlat
 | V2 | String | System Status ("Relaxed" / "ANXIETY!") |
 | V3 | Button | Calibration Trigger |
 
+![Dashboards](assets/blynk_dasboard.png)
+
 ---
 
 ## How It Works
@@ -197,43 +197,17 @@ A lower RMSSD indicates reduced parasympathetic (vagal) activity, which correlat
 
 ---
 
-## Project Cost
-
-| Component | Cost (₹) |
-|---|---|
-| ESP32 WROOM-32 | 400 |
-| OLED Display | 200 |
-| Buzzer | 20 |
-| TP4056 Charging Module | 20 |
-| 500mAh Battery | 90 |
-| Miscellaneous | 200 |
-| **Total** | **₹935** |
-
-> Compare: Apple Watch (~₹35,900) · Oura Ring (~$299)
-
----
-
-## Future Scope
-
-1. **Edge AI (TinyML)** — Train an LSTM/Random Forest model on-device to distinguish exercise stress from anxiety
-2. **Multi-Modal Sensing** — Add a GSR (Galvanic Skin Response) sensor for dual-verification stress detection
-3. **Custom PCB + 3D-Printed Enclosure** — Miniaturize the breadboard prototype into a wearable wristband
-4. **Deep Sleep Power Optimization** — Extend battery life from hours to days using ESP32 low-power modes
-
----
-
 ## Team
 
-| Name | Enrollment No. | Role |
-|---|---|---|
-| **Sumit Yaduwanshi** | 0187EC231042 | Firmware Development (Algorithm & Code Logic) |
-| **Vishwas Paliwal** | 0187EC231045 | IoT Integration (Blynk), Testing, Documentation & Report Writing |
-| **Nikhil Misal** | 0187EC231024 | IoT Integration (Blynk), Testing & Hardware Assembly |
+
+- **Sumit Yaduwanshi**
+- **Vishwas Paliwal**
+- **Nikhil Misal**
 
 **Supervisor:** Prof. Meha Shrivastava (Assistant Professor)  
 **Institution:** Sagar Institute of Science & Technology, Bhopal (SISTec)  
 **Affiliation:** Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal  
-**Duration:** July 2025 – December 2025
+**Duration:** August 2025 – December 2025
 
 ---
 
@@ -247,8 +221,4 @@ A lower RMSSD indicates reduced parasympathetic (vagal) activity, which correlat
 
 ---
 
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
-> Built with ❤️ at SISTec Bhopal | Aligns with **UN SDG Goal 3** — Good Health and Well-being
+> Aligns with **UN SDG Goal 3** — Good Health and Well-being
